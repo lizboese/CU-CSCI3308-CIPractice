@@ -1,4 +1,4 @@
 language: c
-sudo: enabled
+sudo: required
 script: make test
 install: make dep
