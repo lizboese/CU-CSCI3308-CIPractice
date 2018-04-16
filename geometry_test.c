@@ -36,6 +36,14 @@ START_TEST(test_2d_area_triangle)
     c.x = 3.0;
     c.y = 3.0;
     ck_assert(coord_2d_area_triangle(&a, &b, &c)==2.0);
+
+    a.x = 1.0;
+    a.y = 1.0;
+    b.x = 2.0;
+    b.y = 2.0;
+    c.x = 3.0;
+    c.y = 3.0;
+    ck_assert(coord_2d_area_triangle(&a, &b, &c)==2.0);
 }
 END_TEST
 
