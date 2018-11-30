@@ -1,0 +1,7 @@
+
+language: c
+
+script: make dep && make && make test
+
+comiler: 
+  -gcc
